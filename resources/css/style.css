@@ -5,14 +5,18 @@ body{
     font-size: 16px;
     background-color: rgb(226, 223, 223);
 }
+h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
 
 /*HEADER*/
 .header {
     overflow: hidden;
     background-color: #ffffff;
-    padding: 20px 10px;
+    padding: 10px 10px;
   }
-.header a {
+.header a{
     float: left;
     color: black;
     text-align: center;
@@ -21,6 +25,10 @@ body{
     font-size: 1rem;
   }
 .header a.logo {
+    padding-left: 1.5rem;
+    font-size: 2rem;
+  }
+.header a.logo2 {
     font-size: 2rem;
     font-weight: bold;
   }
@@ -32,4 +40,45 @@ body{
     float: right;
     text-align: center;
     padding-top: 1%;
+    padding-right: 1.5rem;
   }
+/*Call to action*/
+.call-to-action{
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    padding-right: none;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+img.call-to-action{
+    width: 80%;
+    height: auto;
+}
+.image-container{
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+}
+.call-information{
+    justify-content: center;
+    align-items: baseline;
+
+}
+p.call-information{
+    font-weight: 400;
+    font-size: 2rem;
+}
+#button{
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgb(70, 68, 68);
+    color: white;
+    text-align: center;
+    width: 50%;
+    text-decoration-color: white;
+    text-decoration-line: none;
+}
+/*INFORMATION*/
